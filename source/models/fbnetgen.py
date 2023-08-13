@@ -1,11 +1,13 @@
+from source.models.base import BaseModel
+from source.models.transformer import GraphTransformer
+from source.models.brainnetcnn import BrainNetCNN
+from source.models.BNT import BrainNetworkTransformer
+from omegaconf import DictConfig
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn import Conv1d, MaxPool1d, Linear, GRU
-from omegaconf import DictConfig
-from .base import BaseModel
-
 
 class GruKRegion(nn.Module):
 
