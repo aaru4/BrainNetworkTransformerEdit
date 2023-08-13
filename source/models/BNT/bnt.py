@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
 from torch.nn import TransformerEncoderLayer
-from .ptdec import DEC
+from source.ptdec import DEC
 from typing import List
-from .components import InterpretableTransformerEncoder
+from source.components import InterpretableTransformerEncoder
 from omegaconf import DictConfig
-from ..base import BaseModel
+from source.base import BaseModel
 
 
 class TransPoolingEncoder(nn.Module):
