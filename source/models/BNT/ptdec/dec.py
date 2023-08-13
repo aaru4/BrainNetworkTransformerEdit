@@ -5,7 +5,7 @@ From https://github.com/vlukiyanov/pt-dec
 import torch
 import torch.nn as nn
 from typing import Tuple
-from .cluster import ClusterAssignment
+from source.models.BNT.ptdec.cluster import ClusterAssignment
 
 
 class DEC(nn.Module):
