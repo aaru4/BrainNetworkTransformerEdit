@@ -1,8 +1,7 @@
 import torch
 import torch.nn.functional as F
 from omegaconf import DictConfig
-from .base import BaseModel
-
+from source.models.base import BaseModel
 
 class E2EBlock(torch.nn.Module):
     '''E2Eblock.'''
