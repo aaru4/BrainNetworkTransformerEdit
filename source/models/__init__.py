@@ -1,8 +1,8 @@
-from .transformer import GraphTransformer
+from source.models.transformer import GraphTransformer
+from source.models.brainnetcnn import BrainNetCNN
+from source.models.fbnetgen import FBNETGEN
+from source.models.BNT import BrainNetworkTransformer
 from omegaconf import DictConfig
-from .brainnetcnn import BrainNetCNN
-from .fbnetgen import FBNETGEN
-from .BNT import BrainNetworkTransformer
 
 
 def model_factory(config: DictConfig):
