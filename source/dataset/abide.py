@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-from .preprocess import StandardScaler
+from source.data.preprocess import StandardScaler
 from omegaconf import DictConfig, open_dict
 
 
