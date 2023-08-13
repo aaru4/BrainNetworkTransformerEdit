@@ -2,11 +2,10 @@ from datetime import datetime
 import wandb
 import hydra
 from omegaconf import DictConfig, open_dict
-from .dataset import dataset_factory
-from .models import model_factory
-from .components import lr_scheduler_factory, optimizers_factory, logger_factory
-from .training import training_factory
-from datetime import datetime
+from source.dataset import dataset_factory
+from source.models import model_factory
+from source.components import lr_scheduler_factory, optimizers_factory, logger_factory
+from source.training import training_factory
 
 
 def model_training(cfg: DictConfig):
