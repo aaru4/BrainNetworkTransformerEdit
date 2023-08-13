@@ -1,1 +1,1 @@
-from .dec import DEC
+from source.models.BNT.ptdec.dec import DEC
