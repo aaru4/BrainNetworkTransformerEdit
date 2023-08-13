@@ -5,7 +5,7 @@ from typing import List
 from sklearn.model_selection import StratifiedShuffleSplit
 import numpy as np
 import torch.nn.functional as F
-
+from source.data.preprocess import StandardScaler
 
 def init_dataloader(cfg: DictConfig,
                     final_timeseires: torch.tensor,
