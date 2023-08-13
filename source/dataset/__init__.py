@@ -1,7 +1,7 @@
 from omegaconf import DictConfig, open_dict
-from .abcd import load_abcd_data
-from .abide import load_abide_data
-from .dataloader import init_dataloader, init_stratified_dataloader
+from source.data.abcd import load_abcd_data
+from source.data.abide import load_abide_data
+from source.data.dataloader import init_dataloader, init_stratified_dataloader
 from typing import List
 import torch.utils as utils
 
