@@ -6,7 +6,7 @@ from omegaconf import DictConfig, open_dict
 
 def load_abide_data(cfg: DictConfig):
 
-    data = np.load(cfg.dataset.path, allow_pickle=True).item()
+    data = np.load(cfg.dataset.path, allow_pickle=True, encoding='latin1').item()
     final_timeseires = data["timeseires"]
     final_pearson = data["corr"]
     labels = data["label"]
