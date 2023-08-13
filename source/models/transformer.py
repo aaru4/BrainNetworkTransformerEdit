@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torch.nn import TransformerEncoderLayer
 from omegaconf import DictConfig
-from .base import BaseModel
+from source.models.base import BaseModel
 
 
 class GraphTransformer(BaseModel):
