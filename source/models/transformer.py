@@ -4,7 +4,6 @@ from torch.nn import TransformerEncoderLayer
 from omegaconf import DictConfig
 from source.models.base import BaseModel
 
-
 class GraphTransformer(BaseModel):
 
     def __init__(self, cfg: DictConfig):
