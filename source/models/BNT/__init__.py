@@ -1,1 +1,2 @@
-from .bnt import BrainNetworkTransformer
+
+from source.models.bnt import BrainNetworkTransformer
