@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from sklearn import preprocessing
 import pandas as pd
-from .preprocess import StandardScaler
+from source.data.preprocess import StandardScaler
 from omegaconf import DictConfig, open_dict
 
 
