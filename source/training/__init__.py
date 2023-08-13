@@ -1,6 +1,6 @@
 from operator import mod
-from .training import Train
-from .FBNettraining import FBNetTrain
+from source.training import Train  # Changed relative import
+from source.FBNettraining import FBNetTrain  # Changed relative import
 from omegaconf import DictConfig
 from typing import List
 import torch
